@@ -22,6 +22,9 @@ class Player extends Lightning.Component {
       "src",
       "http://vf-maf-lng.s3.eu-central-1.amazonaws.com/LNG_MVP_Big_Bunny_AWS_Test.mp4"
     );
+    // video1.setAttribute('controls', 'autoplay');
+    video1.controls = true;
+    video1.autoplay = true;
     document.body.appendChild(video1);
     // video1.play();
 
@@ -32,6 +35,7 @@ class Player extends Lightning.Component {
       "src",
       "http://vf-maf-lng.s3.eu-central-1.amazonaws.com/video-30sec.mp4"
     );
+    video2.setAttribute('controls', 'autoplay');
     document.body.appendChild(video2);
   }
 
