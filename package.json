@@ -1,0 +1,7 @@
+{
+  "name": "com.metrological.app.pageTransition",
+  "description": "pageTransition",
+  "dependencies": {
+    "@lightningjs/sdk": "^5.0.1"
+  }
+}

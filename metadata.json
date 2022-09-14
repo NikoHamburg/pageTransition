@@ -1,0 +1,6 @@
+{
+  "name": "pageTransition",
+  "identifier": "com.metrological.app.pageTransition",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}
