@@ -14,22 +14,22 @@ class Player extends Lightning.Component {
     // div1.height = 500;
     // div1.width = 
 
-    video1.height = 1920;
-    video1.width = 1080;
+    video1.width = 1920;
+    video1.height = 1080;
     video1.left = 0;
     video1.top = 0;
     video1.setAttribute(
       "src",
       "http://vf-maf-lng.s3.eu-central-1.amazonaws.com/LNG_MVP_Big_Bunny_AWS_Test.mp4"
     );
-    // video1.setAttribute('controls', 'autoplay');
-    video1.controls = true;
-    video1.autoplay = true;
+    video1.setAttribute('controls', 'autoplay');
+    // video1.controls = true;
+    // video1.autoplay = true;
     document.body.appendChild(video1);
     // video1.play();
 
-    video2.height = 1920;
-    video2.width = 1080;
+    video2.width = 1920;
+    video2.height = 1080;
     video2.left = 1920;
     video2.setAttribute(
       "src",

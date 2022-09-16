@@ -1,6 +1,6 @@
 {
-  "name": "pageTransition",
-  "identifier": "com.metrological.app.pageTransition",
-  "version": "1.0.0",
+  "name": "OG ZappingApp Test",
+  "identifier": "com.TeraVolt.OGZappingApp",
+  "version": "0.0.4",
   "icon": "./static/icon.png"
 }
