@@ -1,5 +1,5 @@
-import { Player } from "../pages/Player";
-import { Player2 } from "../pages/Player2";
+// import { Player } from "../pages/Player";
+import { Player } from "../pages/Player2";
 
 const routes = {
   root: "Player",
