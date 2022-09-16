@@ -1,6 +1,6 @@
 {
   "name": "OG ZappingApp Test",
   "identifier": "com.TeraVolt.OGZappingApp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "icon": "./static/icon.png"
 }
