@@ -14,8 +14,8 @@ class Player extends Lightning.Component {
     // div1.height = 500;
     // div1.width = 
 
-    video1.width = 1920;
-    video1.height = 1080;
+    video1.width = 960;
+    video1.height = 540;
     video1.left = 0;
     video1.top = 0;
     video1.setAttribute(
@@ -28,9 +28,9 @@ class Player extends Lightning.Component {
     document.body.appendChild(video1);
     // video1.play();
 
-    video2.width = 1920;
-    video2.height = 1080;
-    video2.left = 1920;
+    video2.width = 960;
+    video2.height = 540;
+    video2.left = 960;
     video2.setAttribute(
       "src",
       "http://vf-maf-lng.s3.eu-central-1.amazonaws.com/video-30sec.mp4"
