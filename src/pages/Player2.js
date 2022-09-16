@@ -51,7 +51,7 @@ class Player extends Lightning.Component {
     // Router.navigate("Player2");
     console.log("right");
     this.y -= 100;
-    VideoPlayer.pause();
+    // VideoPlayer.pause();
     VideoPlayer.position(this.x, this.y);
 
     // VideoPlayer.open(
@@ -62,7 +62,7 @@ class Player extends Lightning.Component {
   _handleLeft() {
     console.log("left");
     this.y += 100;
-    VideoPlayer.pause();
+    // VideoPlayer.pause();
     VideoPlayer.position(this.x, this.y);
     // const video1 = document.getElementsByTagName("video")[0];
     // video1.style.transition = `all 0.5s ease-out`;
